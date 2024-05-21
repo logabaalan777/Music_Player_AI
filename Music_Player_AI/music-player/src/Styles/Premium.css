@@ -1,0 +1,75 @@
+.premium-page {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #090808;
+    color: white;
+}
+
+.logopre {
+    width: 200px;
+    margin-left: 100px;
+}
+
+.premium-body {
+    background-image: linear-gradient(to right, #373fdd, #0aeb11);
+}
+
+.premium-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    color: #0e0e0f;
+}
+
+button[type="submit"] {
+    width: 40%;
+    padding: 10px;
+    margin-left: 110px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1db954;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0e8029;
+}
